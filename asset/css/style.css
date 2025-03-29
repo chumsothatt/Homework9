@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Kantumruy Pro", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 60px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.d-flex-center-between{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-form{
+    background-image: url("/asset/image/b.jpg");
+    display: flex;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+}
+.bg-form form{
+    background-color: rgb(248, 241, 241);
+    padding: 30px 40px;
+    width: 500px;
+    border-radius: 10px;
+}
+.col-12{
+    width: 100%;
+}
+.col-6{
+    width: 50%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.group-input{
+    display: flex;
+    flex-direction: column;
+}
+.group-input input:focus{
+    outline: none;
+    border: 2px solid purple;
+}
+.group-input label{
+    padding: 8px 0;
+}
+.group-input input{
+    padding: 10px 5px;
+    border-radius: 4px;
+}
+.link-area{
+    text-decoration: none;
+}
+.text-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.text-area a{
+    text-decoration: none;
+}
+.text-ask{
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+.text-area hr{
+    width: 46%;
+    height: 1px;
+    margin-top: 9px;
+}
+
+.btn-group{
+    padding: 10px 20px;
+    /* background-color: rgb(175, 137, 210); */
+    text-decoration: none;
+    border: 1px solid rgb(175, 137, 210);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.btn-group:hover{
+    background-color: rgb(149, 77, 215);
+    color: white;
+}
+.mb-2{
+    margin-bottom: 24px;
+}
+.text-dark{
+    color: black;
+}
+.btn-group img{
+    width: 24px;
+    border-radius: 50%;
+}
+.m-right{
+    padding-right: 20px;
+}
+.m-left{
+    padding-left: 20px;
+}
+.p-right{
+    padding-right: 5px;
+}
